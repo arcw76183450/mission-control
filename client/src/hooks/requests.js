@@ -22,7 +22,7 @@ async function httpSubmitLaunch(launch) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(launch),
-    })
+    });
   }
   catch(err){
     return {
@@ -32,8 +32,16 @@ async function httpSubmitLaunch(launch) {
 }
 
 async function httpAbortLaunch(id) {
-  // TODO: Once API is ready.
-  // Delete launch with given ID.
+  try{
+    return await fetch(`${API_URL}/launches/${id}`,{
+      method: "delete",
+    });
+  }
+  catch(err){
+    return {
+      ok:false
+    };
+  }
 }
 
 export {
