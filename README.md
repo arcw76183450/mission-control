@@ -27,6 +27,8 @@ Before you begin, ensure you have met the following requirements:
 
 ## Architecture
 
+![Screenshot 2024-06-28 at 6 16 41 PM](https://github.com/arcw76183450/mission-control/assets/126561169/2d7428d0-fd82-48c7-848b-f6818531284f)
+
 ## Installation
 
 To set up the project locally, follow these steps:
