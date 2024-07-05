@@ -26,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/arcw76183450/mission-control/issues"
   },
-  "homepage": "https://github.com/arcw76183450/mission-control#readme"
+  "homepage": "https://github.com/arcw76183450/mission-control#readme",
+  "dependencies": {
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
 }
