@@ -7,6 +7,15 @@
 	},
 	"item": [
 		{
+			"name": "GET /planets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/planets"
+			},
+			"response": []
+		},
+		{
 			"name": "GET /launches",
 			"request": {
 				"method": "GET",
