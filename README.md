@@ -40,6 +40,15 @@ git clone https://github.com/yourusername/mission-control.git
 cd mission-control
 ```
 
+### Setup database connection
+1. Create a new cluser in mongodb atlas
+2. Get the connection string from the cluster settings
+3. Create a ```.env``` file in the main project
+4. Enter the value of the cluster connection string like
+    ```
+    MONGO_URL = "<copied connection string>"
+    ```
+
 ### Setup the project
 
 1. Install all the dependencies
