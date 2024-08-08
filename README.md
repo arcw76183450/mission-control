@@ -27,7 +27,8 @@ Before you begin, ensure you have met the following requirements:
 
 ## Architecture
 
-![Screenshot 2024-06-28 at 6 16 41 PM](https://github.com/arcw76183450/mission-control/assets/126561169/2d7428d0-fd82-48c7-848b-f6818531284f)
+![image](https://github.com/user-attachments/assets/15f51b4b-231f-4708-b820-744ec5484ef2)
+
 
 ## Installation
 
