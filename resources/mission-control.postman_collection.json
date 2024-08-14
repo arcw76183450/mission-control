@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "3544828c-a3df-4999-add0-8673a73e2c3b",
+		"name": "mission-control",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "14609225"
+	},
+	"item": [
+		{
+			"name": "GET /planets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/planets"
+			},
+			"response": []
+		},
+		{
+			"name": "GET /launches",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/launches"
+			},
+			"response": []
+		},
+		{
+			"name": "POST /launches",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mission\": \"LTM344\",\n    \"rocket\": \"Experimental IRS\",\n    \"target\": \"Kepler-186 f\",\n    \"launchDate\": \"December 28, 2030\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8000/launches"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE /launches",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8000/launches/101"
+			},
+			"response": []
+		}
+	]
+}
