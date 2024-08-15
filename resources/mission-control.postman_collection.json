@@ -11,7 +11,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:8000/planets"
+				"url": "http://localhost:8000/v1/planets"
 			},
 			"response": []
 		},
@@ -20,7 +20,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:8000/launches"
+				"url": "http://localhost:8000/v1/launches"
 			},
 			"response": []
 		},
@@ -38,7 +38,7 @@
 						}
 					}
 				},
-				"url": "http://localhost:8000/launches"
+				"url": "http://localhost:8000/v1/launches"
 			},
 			"response": []
 		},
@@ -47,7 +47,7 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": "http://localhost:8000/launches/101"
+				"url": "http://localhost:8000/v1/launches/101"
 			},
 			"response": []
 		}
