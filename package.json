@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/arcw76183450/mission-control#readme",
   "dependencies": {
+    "axios": "^1.7.4",
     "mongoose": "^8.4.4"
   },
   "devDependencies": {
